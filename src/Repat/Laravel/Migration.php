@@ -64,7 +64,7 @@ class Migration extends \Illuminate\Database\Eloquent\Model
             array_filter(
                 scandir(base_path(self::FOLDER)),
                 function ($file) {
-                    return $file !== '.' && $file !== '..';
+                    return ! is_dir(base_path(self::FOLDER . $file));
                 }
             )
         );
