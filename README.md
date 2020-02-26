@@ -24,13 +24,19 @@ $migration->filename;
 
 // Methods
 $migration->fileExists();
+
+// list all files from migrations folder
+$migrations = Migration::listFiles();
+
+// list all files from migrations folder as migration name (without '.php')
+$migrations = Migration::listFiles(true);
 ```
 
 ## License
 * MIT, see [LICENSE](https://github.com/repat/laravel-migration-model/blob/master/LICENSE)
 
 ## Version
-* Version 0.1
+* Version 0.2
 
 ## Contact
 #### repat
