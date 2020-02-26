@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Repat\\LaravelJobs\\": "src/Repat/Laravel"
+            "Repat\\Laravel\\": "src/Repat/Laravel"
         }
     }
 }
