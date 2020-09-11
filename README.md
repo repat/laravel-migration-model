@@ -36,7 +36,7 @@ $migrations = Migration::listFiles(true);
 * MIT, see [LICENSE](https://github.com/repat/laravel-migration-model/blob/master/LICENSE)
 
 ## Version
-* Version 0.3
+* Version 0.4
 
 ## Contact
 #### repat
